@@ -23,9 +23,8 @@ module.exports = {
       brd: '#4b5563', 
       dyd: '#E0D5D5',
   },
-  plugins: [
+  },
+  },
+  plugins: [require('@tailwindcss/line-clamp'),],
 
-  ],
-}
-  }
-}
+};
