@@ -5,4 +5,4 @@ function App() {
    <h1 className="text-h1 font-bold text-str underline"> Hello world! </h1>;
   </div>
 }
-export default App
+export default App;
