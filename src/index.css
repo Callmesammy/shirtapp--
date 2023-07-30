@@ -30,7 +30,7 @@ flex-row{
 .flex-btn{
   @apply flex justify-between items-center;
 };
-.transition{
+transition{
   @apply transition duration-300 ease-in;
 };
 .zIndex{
