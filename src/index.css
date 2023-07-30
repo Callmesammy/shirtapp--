@@ -24,7 +24,7 @@ input:focus,textarea:focus,select:focus{
 .flex-colo{
   @apply flex flex-col justify-center items-center;
 };
-.flex-row{
+flex-row{
   @apply flex flex-row justify-center items-center;
 };
 .flex-btn{
