@@ -9,10 +9,10 @@ module.exports = {
       rate: "400px", 
     }, 
     fontSize: { 
-      h1: '475px', 
+      h1: '2.6rem', 
     },
      screen: { 
-    xs: '2.6rem', 
+    xs: '475pk', 
   },
      colors: { 
       sub: '#F20000', 
