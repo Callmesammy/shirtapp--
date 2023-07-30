@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  heme: { extend: { 
+  theme: { extend: { 
     height: { 
       header: "560px", 
       rate: "400px", 
