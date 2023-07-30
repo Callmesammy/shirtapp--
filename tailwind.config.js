@@ -12,7 +12,7 @@ module.exports = {
       h1: '2.6rem', 
     },
      screen: { 
-    xs: '475pk', 
+    xs: '475px', 
   },
      colors: { 
       sub: '#F20000', 
