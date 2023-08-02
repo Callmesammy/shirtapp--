@@ -5,7 +5,6 @@ import Login from './Screens/Dashboards/Login';
 import Register from './Screens/Dashboards/Register';
 import NotFound from './Screens/NotFound';
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
 
 
 function App() {
