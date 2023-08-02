@@ -30,5 +30,5 @@ zIndex{
   z-index: 1000;
 }
 .flex-btn{
-  @apply flex flex-between items-center
+  @apply flex flex-between items-center;
 }
