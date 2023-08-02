@@ -11,22 +11,22 @@ html, body{
 
 /* setting the basics with Tailwind */
 .hovers{
-  @apply hidden
+  @apply hidden;
 }
 .hovered:hover .hovers{
-  @apply flex-colo
+  @apply flex-colo;
 }
 .flex-colo{
   @apply flex flex-col justify-center items-center;
 }
 .flex-rows{
-  @apply flex flex-row justify-center items-center
+  @apply flex flex-row justify-center items-center;
 }
 .flex-btn{
-    @apply flex flex-between items-center
+    @apply flex flex-between items-center;
 }
 .transitions{
-@apply transition duration-300 ease-in
+@apply transition duration-300 ease-in;
 }
 zIndex{
   z-index: 1000;
