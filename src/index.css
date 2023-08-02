@@ -22,12 +22,13 @@ html, body{
 .flex-rows{
   @apply flex flex-row justify-center items-center;
 }
-.flex-btn{
-  @apply flex flex-between items-center;
-}
+
 .transitions{
 @apply transition duration-300 ease-in;
 }
 zIndex{
   z-index: 1000;
+}
+.flex-btn{
+  @apply flex flex-between items-center
 }
