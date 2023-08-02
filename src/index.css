@@ -29,6 +29,6 @@ html, body{
 zIndex{
   z-index: 1000;
 }
-.flex-btn{
+.flex-btn {
   @apply flex flex-between items-center;
 }
