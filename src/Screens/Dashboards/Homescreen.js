@@ -3,7 +3,7 @@ import React from 'react'
 function Homescreen() {
   return (
     <layout>
-       <div className="bg-maint h-3xl">Homescreen</div>
+       <div className="bg-maint h-2xl">Homescrfeen</div>
     </layout>
    
   )
