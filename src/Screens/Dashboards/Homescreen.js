@@ -1,5 +1,5 @@
 import React from 'react'
-import layout from '../../Layout/layout'
+import layout from '../../Navbar/layout'
 
 function Homescreen() {
   return (
