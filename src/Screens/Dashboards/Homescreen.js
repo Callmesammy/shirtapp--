@@ -1,5 +1,4 @@
 import React from 'react'
-import layout from '../../Navbar/layout'
 
 function Homescreen() {
   return (
