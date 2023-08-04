@@ -10,7 +10,7 @@ function Navbar() {
     <div className="col-span-7 lg:block hidden">
         <Link to="/">
         <img 
-        src="/pics/logo.jpg" alt="logo" 
+        src="logo.jpg" alt="logo" 
         className="w-full h-12 object-contain"/>
         </Link>
     </div>
