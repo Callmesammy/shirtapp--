@@ -9,7 +9,7 @@ function Navbar() {
     <div className="container  mx-auto gap-10 py-12 px-6 lg:grid grid-cols-7 justify-center items-center"> 
     <div className="col-span-1 lg:block hidden">
     <Link to="/">
-    <img src="logo.jpg" alt="logo" className="w-full h-12 object-contain"/>
+    <img src="/pics/logo.jpg" alt="logo" className="w-full h-12 object-contain"/>
     </Link>
     </div>
     </div>
