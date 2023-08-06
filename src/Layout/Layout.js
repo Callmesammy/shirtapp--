@@ -6,7 +6,7 @@ import Footer from './Navbar/Footer'
 function Layout({children}) {
   return ( <>
   <Navbar/>
-  <div className="bg-maint top-5">
+  <div className="bg-maint text-white">
     {children}
     <Footer/>
   </div>
