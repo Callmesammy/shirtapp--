@@ -4,14 +4,15 @@ import Footer from './Navbar/Footer'
 
 
 function Layout({children}) {
-  return ( <>
+  return (
+  <>
   <Navbar/>
-  <div className="bg-maint text-white">
+  <div className="bg-maint text-white gap-2">
     {children}
     <Footer/>
   </div>
   </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
