@@ -15,7 +15,7 @@ function Navbar() {
     <div className="col-span-3">
       <form className="w-full text-sm bg-dyd rounded flex-btn gap-4">
         <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">
-        <LuSearch/>
+        <LuSearch w-12 h-12/>
         </button>
       </form>
     </div>
