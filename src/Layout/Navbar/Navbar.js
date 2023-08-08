@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {LuSearch} from '../../icons'
+import {Link} from 'react-icons/bs'
 
 
 function Navbar() {
