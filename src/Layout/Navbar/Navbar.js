@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {LuSearch} from '../../icons'
 
 
 function Navbar() {
@@ -13,7 +14,9 @@ function Navbar() {
     </div>
     <div className="col-span-3">
       <form className="w-full text-sm bg-dyd rounded flex-btn gap-4">
-        <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">Search</button>
+        <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">
+        <LuSearch/>
+        </button>
       </form>
     </div>
     </div>
