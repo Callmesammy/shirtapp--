@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {LuSearch} from 'react-icons/lu'
+import {ImSearch} from 'react-icons/im'
 
 
 function Navbar() {
@@ -15,7 +15,7 @@ function Navbar() {
     <div className="col-span-3">
       <form className="w-full text-sm bg-dyd rounded flex-btn gap-4">
         <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">
-        <LuSearch w-12 h-12/>
+        <ImSearch/>
         </button>
       </form>
     </div>
@@ -24,4 +24,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar; 
