@@ -13,7 +13,7 @@ function Navbar() {
     </div>
     <div className="col-span-3">
       <form className="w-full text-sm bg-dry rounded flex-btn gap-4">
-        <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">Search</button>
+        <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded">Search</button>
       </form>
     </div>
     </div>
