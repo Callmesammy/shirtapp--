@@ -11,8 +11,10 @@ function Navbar() {
           <img src="/pics/logo.jpg" alt="logo" className="w-full object-contain"/>
         </Link>
     </div>
-    <div className="col-sp">
-      <form className="flex justify-center items-center"></form>
+    <div className="col-span-3">
+      <form className="w-full text-sm bg-dry rounded flex-btn gap-4">
+        <button type="submit" className="bg-sub text-white px-4 py-2 rounded-l">Search</button>
+      </form>
     </div>
     </div>
     </div>
