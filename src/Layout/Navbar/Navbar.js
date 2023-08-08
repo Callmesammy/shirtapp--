@@ -11,7 +11,7 @@ function Navbar() {
           <img src="/pics/logo.jpg" alt="logo" className="w-full object-contain"/>
         </Link>
     </div>
-    <div className="col-span-5 flex justify-center items-center">
+    <div className="col-span-5 flex justify-center items-center">d
     </div>
     </div>
     </div>
