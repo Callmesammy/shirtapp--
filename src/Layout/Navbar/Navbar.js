@@ -15,8 +15,10 @@ function Navbar() {
     <div className="col-span-3">
       <form className="w-full text-sm bg-dyd rounded flex-btn gap-4">
         <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">
-        <ImSearch className="w-6 h-6"/>
+        <ImSearch/>
         </button>
+        <input type="text" placeholder="Search Movies here"
+         className="font-medium placeholder:text-txt w-11/12 h-12"/>
       </form>
     </div>
     </div>
