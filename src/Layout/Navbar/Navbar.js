@@ -18,7 +18,7 @@ function Navbar() {
         <ImSearch/>
         </button>
         <input type="text" placeholder="Search Movies here"
-         className="font-medium placeholder:text-brd w-11/12 h-12"/>
+         className="font-medium text-sm placeholder:text-brd w-11/12 h-12 bg-transparent border-none px-2 text-black"/>
       </form>
     </div>
     </div>
