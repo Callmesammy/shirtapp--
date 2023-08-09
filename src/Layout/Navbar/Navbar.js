@@ -16,7 +16,7 @@ function Navbar() {
         </Link>
     </div>
     {/* Search Form" */}
-    <div className="col-span-3">
+    <div className="col-span-4">
       <form className="w-full text-sm bg-dyd rounded flex-btn gap-4">
         <button type="submit" className="bg-sub text-white flex-colo h-12 w-12 rounded-l">
         <ImSearch/>
@@ -28,7 +28,7 @@ function Navbar() {
     </div>
     </div>
     </>
-  )
+  );
 }
 
 export default Navbar; 
