@@ -18,7 +18,7 @@ function Navbar() {
         </Link>
         <div className="col-span-3">
         <form className="w-full bg-txt rounded flex-btn h-12 ">
-          <button type="submit" className=" bg-sub w-"></button>
+          <button type="submit" className=" bg-sub w-12 h-12 flex-colo rounded-l"></button>
           </form>
           
       </div>
@@ -29,5 +29,7 @@ function Navbar() {
    </>
   );
 }
+
+
 
 export default Navbar; 
