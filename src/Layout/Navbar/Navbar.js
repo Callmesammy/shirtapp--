@@ -13,6 +13,9 @@ function Navbar() {
           <img src="logo.png" alt="logo" className="w-full h-12 object-contain" />
         </Link>
       </div>
+      <div className="col-span-3">
+        <form className="w-full bg-txt rounded ">
+      </div>
     </div>
    </>
   );
