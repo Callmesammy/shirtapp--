@@ -14,7 +14,7 @@ function Navbar() {
         </Link>
       </div>
       <div className="col-span-3">
-        <form className="w-full bg-txt rounded flex-colo h-12 ">
+        <form className="w-12 bg-txt rounded flex-colo h-12 ">
           </form>
       </div>
     </div>
