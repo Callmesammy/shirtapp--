@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 
 
+
 function Navbar() {
   return (
     <>
@@ -14,7 +15,7 @@ function Navbar() {
         </Link>
         <div className="col-span-3">
         <form className="w-full bg-txt rounded flex-colo h-12 ">
-          <button type="submit" className="flex-btn bg-sub">
+          <button type="submit" className="flex-btn bg-sub"></button>
           </form>
       </div>
       
