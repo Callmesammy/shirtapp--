@@ -20,7 +20,7 @@ function Navbar() {
         <div className="col-span-3">
         <form className="w-full bg-txt rounded flex-btn h-12 ">
           <button type="submit" className="text-white bg-sub w-12 h-12 flex-colo rounded-l">
-            <BiSearch className="w-7 h-7/>
+            <BiSearch className="w-7 h-7"/>
           </button>
           </form>
           
