@@ -12,10 +12,11 @@ function Navbar() {
         <Link to="/">
           <img src="logo.png" alt="logo" className="w-full h-12 object-contain" />
         </Link>
-      </div>
-      <div className="col-span-3">
-        <form className="w-12 bg-txt rounded flex-colo h-12 ">
+        <div className="col-span-3">
+        <form className="w-full bg-txt rounded flex-colo h-12 ">
           </form>
+      </div>
+      
       </div>
     </div>
    </>
