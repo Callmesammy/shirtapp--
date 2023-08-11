@@ -15,6 +15,7 @@ function Navbar() {
       </div>
       <div className="col-span-3">
         <form className="w-full bg-txt rounded ">
+          </form>
       </div>
     </div>
    </>
