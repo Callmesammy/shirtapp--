@@ -19,7 +19,7 @@ function Navbar() {
         </Link>
         <div className="col-span-3">
         <form className="w-full bg-txt rounded flex-btn h-12 ">
-          <button type="submit" className=" bg-sub w-12 h-12 flex-colo rounded-l">
+          <button type="submit" className="text-white bg-sub w-12 h-12 flex-colo rounded-l">
             <BiSearch/>
           </button>
           </form>
