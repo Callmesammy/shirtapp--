@@ -13,7 +13,7 @@ function Navbar() {
       <div className="container grid-cols-7 lg:grid bg-sub mx-auto px-4 py-6 gap-4 items-center justify-center text-white">
       <div className=" col-span-1 lg:block hidden">
       <Link to="/">
-      <img src="https://www.flxwallet.com/assets/images/logo.png" alt="logo" className="w-32 h-12 bg-contain" />
+      <img src="logo.png" alt="logo" className="w-32 h-12 bg-contain" />
       </Link>
       
    </div>
