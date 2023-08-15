@@ -1,8 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { BiSearch } from 'react-icons/bi'
-
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,14 +12,15 @@ function Navbar() {
       <Link to="/">
       <img src="logo.png" alt="logo" className="w-full h-12 object-contain " />
       </Link>
-      
    </div>
+    <div className="col-span-3 bg-maint ">
+    <div className="flex flex-colo bg-txt rounded w-full h-12 items-center justify-center">
+    </div>
+    </div>
    </div>
     </div>
    </>
   );
-}
-
-
+};
 
 export default Navbar; 
