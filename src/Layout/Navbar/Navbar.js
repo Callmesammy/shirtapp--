@@ -14,7 +14,7 @@ function Navbar() {
       </Link>
    </div>
     <div className="col-span-3 bg-maint ">
-    <div className="flex  bg-txt rounded flex-btn w-full h-12 items-center justify-center">
+    <div className="flex  bg-txt rounded text-sm gap-4 text-white flex-btn w-full h-12 items-center justify-center">
     <button type="submit" className="bg-sub w-12 h-12 rounded-l flex-colo">Su</button>
     </div>
     </div>
