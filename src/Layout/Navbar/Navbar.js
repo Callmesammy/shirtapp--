@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { BiSearchAlt } from "react-icons/bi";
 
 
 
@@ -15,7 +16,9 @@ function Navbar() {
    </div>
     <div className="col-span-3 bg-maint ">
     <div className="flex  bg-txt rounded text-sm gap-4 text-white flex-btn w-full h-12 items-center justify-center">
-    <button type="submit" className="bg-sub w-12 h-12 rounded-l flex-colo">Su</button>
+    <button type="submit" className="bg-sub w-12 h-12 text-white rounded-l flex-colo">
+      <BiSearchAlt/>
+    </button>
     </div>
     </div>
    </div>
