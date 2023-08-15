@@ -19,6 +19,10 @@ function Navbar() {
     <button type="submit" className="bg-sub w-12 h-12 text-white rounded-l flex-colo">
       <BiSearchAlt className="w-5 h-5"/>
     </button>
+    <input type="text" placeholder="Search your movies hear and download for free" 
+    className="placeholder:boder text-black bg-dyd w-11/12 h-12 rounded border-black">
+      
+    </input>
     </div>
     </div>
    </div>
