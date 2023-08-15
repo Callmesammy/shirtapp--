@@ -15,12 +15,12 @@ function Navbar() {
       </Link>
    </div>
     <div className="col-span-3 bg-maint ">
-    <div className="flex  bg-txt rounded text-sm gap-4 text-white flex-btn w-full h-12 items-center justify-center">
+    <div className="flex  bg-white rounded text-sm gap-4 text-white flex-btn w-full h-12 items-center justify-center">
     <button type="submit" className="bg-sub w-12 h-12 text-white rounded-l flex-colo">
       <BiSearchAlt className="w-5 h-5"/>
     </button>
     <input type="text" placeholder="Search your movies hear and download for free" 
-    className="placeholder:boder text-black bg-txt w-11/12 h-12 bg-transparent rounded border">
+    className="placeholder:boder text-black bg-white w-11/12 h-12 bg-transparent rounded border">
       
     </input>
     </div>
