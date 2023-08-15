@@ -15,6 +15,7 @@ function Navbar() {
    </div>
     <div className="col-span-3 bg-maint ">
     <div className="flex flex-colo bg-txt rounded w-full h-12 items-center justify-center">
+                                                    <button type="submit" className="bg-sub w-12 h-12 rounded-l flex-btn">Su</button>
     </div>
     </div>
    </div>
