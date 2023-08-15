@@ -20,7 +20,7 @@ function Navbar() {
       <BiSearchAlt className="w-5 h-5"/>
     </button>
     <input type="text" placeholder="Search your movies hear and download for free" 
-    className="placeholder:boder text-black bg-dyd w-11/12 h-12 bg-transparent rounded border-black">
+    className="placeholder:boder text-black bg-txt w-11/12 h-12 bg-transparent rounded border-black">
       
     </input>
     </div>
