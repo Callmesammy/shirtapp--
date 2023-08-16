@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import { BiSearchAlt } from "react-icons/bi";
+import { Link, NavLink } from 'react-router-dom';
 
 
 
