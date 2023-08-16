@@ -5,6 +5,8 @@ import { Link, NavLink } from 'react-router-dom';
 
 
 function Navbar() {
+  const hover = "hover:text-sub transitions text-white"
+  const Hover = ({isActive}) =>(isActive ? 'text-sub' : hover)
   return (
     <>
     {/*Navbar*/}
@@ -30,7 +32,7 @@ function Navbar() {
     </div>
     {/*Menu*/}
     <div className="col-span-3 font-normal text-sm justify-between xl:gap-14 2xl:gap-20 lg:flex hidden xl:justify-end items-center">
-      <NavLink to="/movies" className="hover:text-sub">Movies</NavLink>
+      <NavLink to="/movies" className={Hover}>Movies</NavLink>
     </div>
     </div>
     
