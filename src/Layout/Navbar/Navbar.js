@@ -38,6 +38,8 @@ function Navbar() {
       <NavLink to="/upcoming" className={Sober}><FaUserAlt className="w-6 h-6"
       /></NavLink>
       <NavLink to="/contact" className={Sober}>Contact</NavLink>
+      <NavLink to="/about" className={Sober}>About</NavLink>
+      <NavLink to="/login" className={Sober}><AiFillHeart className="w-6 h-6"/></NavLink>
     </div>
     </div>
     
