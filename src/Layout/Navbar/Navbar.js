@@ -6,7 +6,7 @@ import { BiSearchAlt } from "react-icons/bi";
 
 function Navbar() {
   const  hover = "text-white transitions";
-  const Hover =({isActive}) =(isActive ? "text-sub" : hover);
+  const Hover =({isActive}) =>(isActive ? "text-sub" : hover);
   return (
     <>
     {/*Navbar*/}
