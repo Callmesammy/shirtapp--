@@ -5,6 +5,8 @@ import { BiSearchAlt } from "react-icons/bi";
 
 
 function Navbar() {
+  const  hover = "text-white transitions";
+  const Hover =({isActive}) =(isActive ? "text-sub" : hover);
   return (
     <>
     {/*Navbar*/}
@@ -30,6 +32,7 @@ function Navbar() {
     </div>
     {/*Menu*/}
     <div className="col-span-3 font-normal text-sm justify-between xl:gap-14 2xl:gap-20 lg:flex hidden xl:justify-end items-center">
+      <NavLink to="/movies" className={Hover}>Home</NavLink>
     </div>
     </div>
     
