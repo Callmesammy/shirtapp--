@@ -5,7 +5,6 @@ import { FaUserAlt } from "react-icons/fa";
 import { AiFillHeart } from "react-icons/ai";
 
 
-
 function Navbar() {
   const hover = "hover:text-sub transitions text-white ";
   const Sober = ({isActive}) => (isActive ? 'text-white' : hover);
@@ -40,7 +39,8 @@ function Navbar() {
       /></NavLink>
       <NavLink to="/contact" className={Sober}>Contact</NavLink>
       <NavLink to="/about" className={Sober}>About</NavLink>
-      <NavLink to="/login" className={Sober}><AiFillHeart className="w-6 h-6"/></NavLink>
+      <NavLink to="/login" className={Sober}><AiFillHeart className="w-6 h-6"
+      /></NavLink>
     </div>
     </div>
     
