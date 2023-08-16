@@ -34,7 +34,6 @@ function Navbar() {
     {/*Menu*/}
     <div className="col-span-3 font-normal text-sm justify-between xl:gap-14 2xl:gap-20 lg:flex hidden xl:justify-end items-center">
       <NavLink to="/movies" className={Sober}>Movies</NavLink>
-      <NavLink to="/tvshows" className={Sober}>TV </NavLink>
       <NavLink to="/upcoming" className={Sober}><FaUserAlt className="w-6 h-6"
       /></NavLink>
       <NavLink to="/contact" className={Sober}>Contact</NavLink>
