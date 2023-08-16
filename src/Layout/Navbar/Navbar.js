@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { BiSearchAlt } from "react-icons/bi";
 import { FaUserAlt } from "react-icons/fa";
+import { AiFillHeart } from "react-icons/ai";
 
 
 
