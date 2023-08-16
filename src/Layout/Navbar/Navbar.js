@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { BiSearchAlt } from "react-icons/bi";
 
 
@@ -30,7 +30,7 @@ function Navbar() {
     </div>
     {/*Menu*/}
     <div className="col-span-3 font-normal text-sm justify-between xl:gap-14 2xl:gap-20 lg:flex hidden xl:justify-end items-center">
-      <Link to="/movies" className="hover:text-sub">Movies</Link>
+      <NavLink to="/movies" className="hover:text-sub">Movies</NavLink>
     </div>
     </div>
     
