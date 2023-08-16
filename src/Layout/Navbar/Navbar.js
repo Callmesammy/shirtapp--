@@ -40,7 +40,7 @@ function Navbar() {
       <NavLink to="/about" className={Sober}>About</NavLink>
       <NavLink to="/login" className={`${Sober}relative`}><AiFillHeart className="w-6 h-6"
       />
-     <div className="w-5 h-5 flex-colo rounded-full bg-sub text-white text-xs absolute -top-1 -right-2">
+     <div className="w-5 h-5 flex-colo rounded-full bg-sub text-white text-xs absolute -top+3 -right-2">
       4
      </div>
       </NavLink>
