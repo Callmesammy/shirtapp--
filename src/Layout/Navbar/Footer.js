@@ -74,7 +74,7 @@ function Footer() {
     <div className="grid grid-cols-4 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-12 py-7 justify-between gap-5 sm:gap-7 md:gap-9 xl:gap-12">
     {Linka.map((item, index) => (
       <div key={index} className="col-span-1 md:col-span-2 lg:col-span-3 pb-3.5 sm:pb-0">
-      <h3 className="text-white text-md font-medium pb-3.5">{item.title}</h3>
+      <h3 className="text-white font-medium text-md lg:leading-7 mb-4 lg:mb-6 pb-3.5">{item.title}</h3>
 
       </div>
     ))}
