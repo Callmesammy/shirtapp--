@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Footer() {
   const Linka =[
@@ -74,8 +76,14 @@ function Footer() {
     <div className="grid grid-cols-4 md:grid-cols-7 lg:grid-cols-9 xl:grid-cols-12 py-7 justify-between gap-5 sm:gap-7 md:gap-9 xl:gap-12">
     {Linka.map((links, index) => (
       <div key={index} className="col-span-1 md:col-span-2 lg:col-span-3 pb-3.5 sm:pb-0">
-      <h3 className="text-white font-bold font-medium text-md lg:leading-7 mb-4 lg:mb-6 pb-3.5">{links.title}</h3>
-
+      <h3 className="text-white font-bold text-md lg:leading-7 mb-4 lg:mb-6 pb-3.5">{links.title}</h3>
+      <ul className="text-s,  flex flex-col space-y-3">
+        {link.links.map((text, index) => (
+          <li key={index} className="flex items-baseline">
+            <Link to={text.link} className="text-white hover:text-sub transition">{text.name}</Link>
+          </li>
+        ))}
+      </ul>
       </div>
     ))}
       </div>
