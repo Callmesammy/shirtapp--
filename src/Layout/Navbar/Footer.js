@@ -76,7 +76,7 @@ function Footer() {
     <div className="grid-cols-3 grid sm:grid-cols-7 md:grid-cols-9 lg:grid-cols-12 xl:grid-cols-14 gap sm:gap-2 md:gap-6 lg:gap-8 xl:gap-10 py-6 justify-between">
     {Footers.map((footer, index) => (
       <div key={index}>
-    <h3 className="text-white text-sm col-span-7 font-normal">
+    <h3 className="text-white text-normal col-span-7 font-bold">
       {footer.title}</h3>
       </div>
     ))}
