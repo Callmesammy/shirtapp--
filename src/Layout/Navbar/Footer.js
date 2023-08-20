@@ -75,7 +75,7 @@ function Footer() {
     <div className="container mx-20 gap-2">
     <div className="gap-5 grid py-6 sm:gap-3 md:gap-4 lg:gap-7 xl:gap-9 sm:grid-cols-8 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12">
         {Links.map((link, index) => (
-        <div key={index} className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-5 justify-between pb-3.5 sm:pb-0">
+        <div key={index} className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-3 justify-between pb-3.5 sm:pb-0">
           <h3 className="font-bold text-white">{link.title}</h3>
         </div>))}
       </div>
