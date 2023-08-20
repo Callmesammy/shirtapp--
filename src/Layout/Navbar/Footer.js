@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const Links =[
@@ -77,10 +78,10 @@ function Footer() {
       <ul className="flex text-sm space-y-3 flex-col">
         {link.links.map((text, index) => (
           <li key={index} className="flex items-baseline">
-          <Links to={text.link}
+          <Link to={text.link}
            className="inline-block hover:text-sub w-full text-brd"> 
           {text.name}
-          </Links>
+          </Link>
           </li>
         ))}
       </ul>
