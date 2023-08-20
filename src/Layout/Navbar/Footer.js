@@ -79,8 +79,8 @@ function Footer() {
         <div key={index} className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-3 justify-between pb-3.5 sm:pb-0">
           <h3 className="font-bold text-white">{link.title}</h3>
           <ul className="flex flex-col space-y-3">
-            {text.links.map((link, index) => (
-              <li key={index} className="flex items-basline">
+            {text.links.map((link, fr) => (
+              <li key={fr} className="flex items-basline">
               <Links to={link.link} className="text-white hover:text-yellow-500">{text.name}</Links>
               </li>
             ))}
