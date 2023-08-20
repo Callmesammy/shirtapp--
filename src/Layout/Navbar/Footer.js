@@ -76,9 +76,7 @@ function Footer() {
         <ul className="flex flex-col">
         {flex.links.map((link, index) =>(
           <li key={index} className="text-txt text-sm font-medium hover:text-white transition duration-300 ease-in-out py-1.5">
-          <link.url>{link.name}</link.url>
-          </li>
-        ))}
+          <link>{link.name}</link>
         </ul>
         
       </div>
