@@ -80,7 +80,7 @@ function Footer() {
           <ul className="flex flex-col space-y-3">
             {link.link.map((item, index) => (
               <li key={index} className="flex items-baseline">
-              <Links to ={item.link} className="text-brd hover:text-sub">{item.name}</Links>
+              <Links to ={item.link} className="text-brd w-full inline-block hover:text-sub">{item.name}</Links>
               </li>
             ))}
           </ul>
