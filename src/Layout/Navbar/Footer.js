@@ -74,7 +74,7 @@ function Footer() {
     <div className="grid sm:grid-cols-2 py-6 md:grid-cols-3 lg:grid-cols-7 xl:grid-cols-10 gap-5 mb-5 md:gap-5 sm:gap-4 lg:gap-6 xl:gap-10 pb-3.5 sm:pb-0">
     {Links.map((link, index) => (
           <div key={index} className="col-span-1 md:col-span-2 xl:col-3 mb-5 sm:mb-3 pb-0.5">
-      < h3 className="font-bold text-white">{link.title}</h3>
+      < h3 className="font-bold mb-4 text-white">{link.title}</h3>
       <ul className="flex text-sm space-y-3 flex-col">
         {link.links.map((text, index) => (
           <li key={index} className="flex items-baseline">
