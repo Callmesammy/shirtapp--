@@ -72,7 +72,7 @@ function Footer() {
     <div className="grid-cols-1 grid sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-9 xl:grid-cols-12 gap-5 sm:gap-7 md:gap-9 lg:gap-10 xl:gap-12 py-6 justify-between">
       {Footer.map((link, index) =>(
         <div key={index} className="col-span-1 md-col-span-2 lg:col-span-3 xl:col-span-4 pb-3.5 sm:pb-0">
-        <h3 className="lg:leading-7 text-bold font-bold text-white mb-4 sm:mb-2">{flex.title}</h3>  
+        <h3 className="lg:leading-7 text-bold font-bold text-white mb-4 sm:mb-2">{link.title}</h3>  
         <ul className="flex flex-col space-y-3">
           {text.links.map((link, index) =>(
             <li key={index} className="flex items-baseline">
