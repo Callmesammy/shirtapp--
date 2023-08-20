@@ -46,7 +46,6 @@ function Navbar() {
       </NavLink>
     </div>
     </div>
-    
     </div>
    </>
   );
