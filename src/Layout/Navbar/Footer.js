@@ -71,14 +71,13 @@ function Footer() {
     <div  className="bg-dyr border-t-3 border-black">
     <div className="container mx-auto px-2">
     <div className="grid sm:grid-cols-2 py-6 md:grid-cols-3 lg:grid-cols-7 xl:grid-cols-10 gap-5 md:gap-5 sm:gap-4 lg:gap-6 xl:gap-10 pb-3.5 sm:pb-0">
-    {Links.map((link, index) => (
-          <div key={index} className="col-span-1 md:col-span-2 xl:col-3 mb-5 sm:mb-3 pb-0.5">
+    {Links.map((link, text) => (
+          <div key={text} className="col-span-1 md:col-span-2 xl:col-3 mb-5 sm:mb-3 pb-0.5">
       < h3 className="font-bold text-white">{link.title}</h3>
       <ul className="flex flex-col">
         {link.links.map((item, index) => (
-          <li key={index} className="text-white text-sm hover:text-sub">{item.name}
-          
-          <Links to={item.link}> </Links>
+          <li key={index} className="text-white text-sm hover:text-sub">
+          <Links to={item.link}>{item.name}</Links>
           </li>
         ))}
       </ul>
