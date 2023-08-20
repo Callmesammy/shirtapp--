@@ -81,7 +81,7 @@ function Footer() {
             {link.links.map((text, index) => (
               <li key={index} className="items-baseline flex">
             <Links to={text.link} className="text-white hover:text-yellow-500">
-              {link.name}
+              {text.name}
             </Links>
           </li>
             ))}
