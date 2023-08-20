@@ -72,7 +72,7 @@ function Footer() {
     <div className="container mx-auto px-2">
     <div className="grid sm:grid-cols-2 py-6 md:grid-cols-3 lg:grid-cols-7 xl:grid-cols-10 gap-5 md:gap-7 sm:gap-3 lg:gap-9 xl:gap-8 pb-3.5 sm:pb-0">
     {Links.map((link, index) => (
-      <div key={index} className="sm:col-span-1 md:col-span-2 lg:col-span-3 justify-between mb-5">
+      <div key={index} className="sm:col-span-1 md:col-span-2 lg:col-span-3 xl:col-span-4 justify-between mb-5">
       < h3 className="font-bold text-white">{link.title}</h3>
       </div>
 
