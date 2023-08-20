@@ -73,11 +73,6 @@ function Footer() {
       {Footer.map((flex, index) =>(
         <div key={index} className="col-span-1 md-col-span-2 lg:col-span-3 xl:col-span-4 pb-3.5 sm:pb-0">
         <h3 className="lg:leading-7 text-bold font-bold text-white mb-4 sm:mb-2">{flex.title}</h3>  
-        <ul className="flex flex-col">
-        {flex.links.map((link, index) =>(
-          <li key={index} className="text-txt text-sm font-medium hover:text-white transition duration-300 ease-in-out py-1.5">
-          <link>{link.name}</link>
-        </ul>
         
       </div>
       
