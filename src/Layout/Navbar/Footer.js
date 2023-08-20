@@ -4,7 +4,7 @@ function Footer() {
   const Links =[
     {
       title: "HomePage",
-      link:[
+      links:[
         {
           name: "Home",
           link: "/"
@@ -26,7 +26,7 @@ function Footer() {
     },
     {
       title: "Categories",
-      link:[
+      links:[
         {
           name: "Actions",
           link: "#"
@@ -48,7 +48,7 @@ function Footer() {
     },
     {
       title: "Movies",
-      link:[
+      links:[
         {
           name: "Iced",
           link: "/ice"
@@ -69,7 +69,7 @@ function Footer() {
 
     },
     
-]
+];
   return (
     <div className="bg-dyr border-t-3 border-black">
     <div className="container mx-20 gap-2">
@@ -78,9 +78,9 @@ function Footer() {
         <div key={index} className="col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-2 xl:col-span-3 justify-between pb-3.5 sm:pb-0">
           <h3 className="font-bold text-white">{link.title}</h3>
           <ul className="flex flex-col space-y-3">
-            {link.link.map((item, index) => (
+            {link.links.map((item, index) => (
               <li key={index} className="flex items-baseline">
-              <Links to ={item.link} className="text-brd w-full inline-block hover:text-sub">{item.name}</Links>
+              <Links to ={text.link} className="text-brd w-full inline-block hover:text-sub">{item.name}</Links>
               </li>
             ))}
           </ul>
