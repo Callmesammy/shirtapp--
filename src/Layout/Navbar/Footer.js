@@ -81,6 +81,7 @@ function Footer() {
       {link.links.map((text, index) => (
         <li key={index} className="flex items-baseline  justify-between">
         <Link to={text.link} className="text-white w-full hover:text-sub">
+        {text.name}
          </Link>
         </li>
       ))}
