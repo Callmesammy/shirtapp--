@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const Links =[
@@ -74,9 +75,16 @@ function Footer() {
     {Links.map((link, index) => (
       <div key={index} className="col-span-1 sm:col-span-2 xl:col-span-3 mb-4 sm:mb-0 pb-0.5">
       <h3 className=" text-white font-bold space-y-3 mb-4 ">
-
       {link.title}
       </h3>
+      <ul className="flex flex-col items-baseline space-y-3">
+      {link.links.map((item, index) => (
+        <li key={index} className="flex justify-between">
+        <Link to={item.link} className="text-white hover:text-sub">
+         </Link>
+        </li>
+      ))}
+      </ul>
       </div>
     ))}
     </div>
