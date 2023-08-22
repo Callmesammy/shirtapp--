@@ -96,6 +96,14 @@ function Footer() {
      <p className="text-sm lg:leading-7 text-brd ">
       14B Grace Angous drive,   <br/> Lekki Phase 1, Lagos</p>
       </span>
+      <br/>
+      <span>
+        Tel: +234 803 000 0000
+      </span>
+      <br/>
+      <span>
+        Email: callmesammy@yahoo.com
+      </span>
     </div>
     </div>
     
