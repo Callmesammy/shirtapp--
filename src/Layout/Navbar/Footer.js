@@ -92,7 +92,7 @@ function Footer() {
       <Link to="/">
       <img src="logo.png" alt="logo" className="w-2/4 h-12 object-contain" />
       </Link>
-      <p className="text-sm text-brd">Lorem ipasum dummy text <br/> Donny</p>
+      <p className="text-sm text-brd justify-center">Lorem ipasum dummy text <br/> Donny</p>
     </div>
     </div>
     
