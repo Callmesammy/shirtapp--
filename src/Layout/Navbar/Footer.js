@@ -88,11 +88,11 @@ function Footer() {
       </ul>
       </div>
     ))}
-    <div className="pb-3.5 justify-center col-span-1 md:col-span-2 lg:col-span-3 sm:pb-0">
+    <div className="pb-3.5  col-span-1 md:col-span-2 lg:col-span-3 sm:pb-0">
       <Link to="/">
       <img src="logo.png" alt="logo" className="w-2/4 h-12 object-contain" />
       </Link>
-      <p className="text-sm text-brd text-center">Lorem ipasum dummy text <br/> Donny</p>
+      <p className="text-sm text-brd ">Lorem ipasum dummy text <br/> Donny</p>
     </div>
     </div>
     
