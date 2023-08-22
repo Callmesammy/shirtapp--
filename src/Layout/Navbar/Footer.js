@@ -70,7 +70,7 @@ function Footer() {
   ];
   return (
     <div className="bg-dyr border-t-3 border-black">
-    <div className="container mx-auto px-4">  
+    <div className="container mx-auto px-2">  
     <div className="grid sm:grid-cols-3 md:grid-cols-7 xl:grid-cols-12 gap-5 sm:gap-6 md:gap-7 xl:gap-14 py-5 justify-between pb-3.5 sm:pb-0">
     {Links.map((link, index) => (
       <div key={index} className="col-span-1 sm:col-span-2 xl:col-span-3 mb-3 sm:mb-0 pb-0.5">
