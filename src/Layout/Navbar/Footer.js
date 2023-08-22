@@ -94,7 +94,7 @@ function Footer() {
       </Link>
       <span>
      <p className="text-sm lg:leading-7 text-brd ">
-      14B Grace Angous drive,   <br/> Lekki Phase 1, Lagos</p>
+      14B Grace Angous drive,   <br/> Lekki Phase 1, Lagos
       </span>
       <br/>
       <span>
@@ -103,7 +103,7 @@ function Footer() {
       <br/>
       <span>
         Email: callmesammy@yahoo.com
-      </span>
+      </span></p>
     </div>
     </div>
     
