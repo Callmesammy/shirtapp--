@@ -92,8 +92,9 @@ function Footer() {
       <Link to="/">
       <img src="logo.png" alt="logo" className="w-2/4 h-12 object-contain" />
       </Link>
+           <p className="text-sm lg:leading-7 text-brd ">
+
       <span>
-     <p className="text-sm lg:leading-7 text-brd ">
       14B Grace Angous drive,   <br/> Lekki Phase 1, Lagos
       </span>
       <br/>
@@ -103,7 +104,8 @@ function Footer() {
       <br/>
       <span>
         Email: callmesammy@yahoo.com
-      </span></p>
+      </span>
+      </p>
     </div>
     </div>
     
