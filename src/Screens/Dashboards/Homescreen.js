@@ -10,7 +10,7 @@ import Banner from '../../Home/Banner';
 function Homescreen() {
   return (
    < Layout>
-   <div className="container mx-auto mb-6 min-h-screen px-2">HomeScreen
+   <div className="container mx-auto mb-6 min-h-screen px-2">
    < Banner/>
    <PopularMovies/>
    <Promos/>
