@@ -8,7 +8,7 @@ function Homescreen() {
    <div>Homescreen</div>
    </Layout>
    
-  )
+  );
 }
 
 export default Homescreen
