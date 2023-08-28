@@ -1,8 +1,15 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 
 function Banner() {
   return (
-    <div>Banner</div>
+    <div className="relative w-full">
+    <Swiper 
+ 
+    >
+</Swiper>
+    </div>
   )
 }
 
