@@ -1,5 +1,5 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper } from 'swiper/react';
 
 function Banner() {
   return (
