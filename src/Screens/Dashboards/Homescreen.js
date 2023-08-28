@@ -5,7 +5,7 @@ import Layout from '../../Layout/Layout'
 function Homescreen() {
   return (
    < Layout>
-   <div className="bg-maint container mx-auto min-h-screen mb-6 ">Homescreen</div>
+   <div className="container mx-auto mb-6 min-h-screen">HomeScreen</div>
    </Layout>
    
   );
