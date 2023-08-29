@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Movies } from '../Movies/Movies';
+import { Movies } from '../Movies/Films';
 
 
 
