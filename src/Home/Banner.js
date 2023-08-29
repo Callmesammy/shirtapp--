@@ -2,6 +2,8 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Movies } from '../Components/Film';
 import { Autoplay } from 'swiper';
+import 'swiper/swiper-bundle.css';
+
 
 function Banner() {
   return (
@@ -9,14 +11,13 @@ function Banner() {
     <Swiper 
     direction="vertical"
     slidesPerView={1}
-    spaceBetween={0}
     loop={true}
     speed={1000}
     modules={[Autoplay]}
     autoplay={{delay: 4000, disableOnInteraction: false}}
     className="w-full h-48 xl:h-96 lg:h-64 bg-dyr "
     >
-    {Movies.slice(0, 7).map((movie, index) => (
+    {Movies.slice(0, 5).map((movie, index) => (
         <SwiperSlide key={index} 
         className="relative rounded overflow-hidden">
         <img 
