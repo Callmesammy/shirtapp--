@@ -24,6 +24,7 @@ function Banner() {
         alt={movie.id} 
         className="w-full h-full object-cover"/> 
         </SwiperSlide>
+        
     ))
     
     }
