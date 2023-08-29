@@ -1,5 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper';
 import { Movies } from '../Movies/Movies';
 
 
@@ -19,7 +20,7 @@ function Banner() {
     {Movies.slice(0, 5).map((movie, index) => (
         <SwiperSlide key={index} className="relative rounded overflow-hidden">
         <img 
-        src={`/flx/pics/${movie.img}`} 
+        src={`/flx/pics/${movie.image}`} 
         alt={movie.id} 
         className="w-full h-full object-cover"/> 
         </SwiperSlide>
