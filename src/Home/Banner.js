@@ -2,7 +2,6 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Movies } from '../Components/Film';
 import { Autoplay } from 'swiper';
-import 'swiper/swiper-bundle.css';
 
 
 function Banner() {
