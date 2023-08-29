@@ -1,7 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Movies } from '../Movies/Films';
-
+import { Movies } from '../Components/Film';
 
 
 function Banner() {
