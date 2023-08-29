@@ -1,6 +1,5 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper';
 import { Movies } from '../Movies/Movies';
 
 
