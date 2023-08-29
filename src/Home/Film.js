@@ -35,3 +35,4 @@ export const Movies =[
         image: "7.jpg",
     },
 ];
+
