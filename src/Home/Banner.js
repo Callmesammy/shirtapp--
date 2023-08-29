@@ -9,6 +9,7 @@ function Banner() {
     <Swiper 
     direction="vertical"
     slidesPerView={1}
+    spaceBetween={0}
     loop={true}
     speed={1000}
     modules={[Autoplay]}
