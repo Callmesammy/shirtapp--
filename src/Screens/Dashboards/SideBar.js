@@ -46,7 +46,7 @@ function SideBar() {
     <div className="gap-10 xl:grid grid-cols-8 items-start md-py-12 py-6">
     <div className="col-span-2 sticky p-6 bg-dyr border border-gray-600 mb-5 xl:mb-0 rounded-md">
     </div>
-        
+    </div>
     </div>  
      </Layout>
   )
