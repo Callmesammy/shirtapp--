@@ -44,9 +44,9 @@ function SideBar() {
     ];
   return (
     <Layout>
-        < div className="container mx-auto bg-dyr min-h-screen px-2">
+        < div className="container mx-auto min-h-screen px-2">
         <div className="xl:grid grid-cols-8  gap-10 items-start md:py-12 py-6">
-        <div className="col-span-2 sticky bg-dyr border p-6 sticky border-gray-600 rounded-md mb-5 xl:mb-0 ">
+        <div className="col-span-2 sticky bg-dyr border p-6  border-gray-600 rounded-md mb-5 xl:mb-0 ">
         
         </div>
         </div>
