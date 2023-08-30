@@ -1,8 +1,12 @@
 import React from 'react'
+import SideBar from './SideBar'
 
 function Movies() {
   return (
-    <div>Movies</div>
+    <SideBar>
+          <div>Movies</div>
+
+    </SideBar>
   )
 }
 
