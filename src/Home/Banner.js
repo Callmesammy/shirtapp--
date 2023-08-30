@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className="container min-h-full">Banner</div>
+    <div className="container min-h-full px-4"></div>
   )
 }
 
