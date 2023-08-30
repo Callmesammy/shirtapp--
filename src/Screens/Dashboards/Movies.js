@@ -4,7 +4,7 @@ import SideBar from './SideBar'
 function Movies() {
   return (
     <SideBar>
-          <div>Movies</div>
+    <div>Movies</div>
 
     </SideBar>
   )
