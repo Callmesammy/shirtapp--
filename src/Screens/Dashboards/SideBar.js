@@ -10,12 +10,6 @@ import { NavLink } from 'react-router-dom'
 
 
 function SideBar() {
-    const active = "bg-dyd text-sub"
-    const hover =  "hover:bg-maint hover:text-sub"
-    const inActive = "rounded font-medium text-sm transitions px-4 flex gap-3 items-center p-4"
-    const Hover =({isActive}) =>
-    isActive ?  '{active} ${inActive}`' : '`${hover} ${inActive}`'
-    
 
     const linkList = [
         {
@@ -49,7 +43,15 @@ function SideBar() {
             icons:BiSolidCategoryAlt,
         },
     ];
+    const active = "bg-dyd text-sub"
+    const hover =  "hover:bg-maint hover:text-sub"
+    const inActive = "rounded font-medium text-sm transitions px-4 flex gap-3 items-center p-4"
+    const Hover =({isActive}) =>
+    isActive ? `${active} ${inActive}` : `${hover} ${inActive}`
+    
   return (
+  
+
     <Layout>
         < div className="container mx-auto min-h-screen px-2">
         <div className="xl:grid grid-cols-8  gap-10 items-start md:py-12 py-6">
